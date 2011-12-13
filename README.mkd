@@ -1,0 +1,27 @@
+# NAME
+
+Cirque::Plugin::Authentication::LDAP - Authentication-backend for Cirque
+
+# SYNOPSIS
+
+    $ ln -s cirque-plugin-authentication-ldap/plugins/authentication-ldap path/to/cirque/plugins/
+    $ path/to/cirque/bin/cirqued
+
+# DESCRIPTION
+
+Cirque::Plugin::Authentication::LDAP is an authentication-backend for
+cirque.
+
+# Configuration
+
+See plugins/authentication-ldap/etc/config.pl
+
+# SEE ALSO
+
+plugins/authentication-ldap/etc/config.pl
+
+# LICENSE
+
+This library is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
+
