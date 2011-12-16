@@ -24,13 +24,13 @@
 # search_base: 認証ユーザを検索するためのベースDN
 # default_domain: メールアドレス自動補完用のベースとなるドメイン
 #
-    'API::Authentication::LDAP' => {
-        host => "ldap.example.com",
-        port => 389,
-        dn => "cn=example,dc=cirque",
-        password => "ldapPassword",
-        search_base => "ou=CIRQUE,dc=example",
-        default_domain => "example.com",
-    },
+#    'API::Authentication::LDAP' => {
+#        host => "ldap.example.com",
+#        port => 389,
+#        dn => "cn=example,dc=cirque",
+#        password => "ldapPassword",
+#        search_base => "ou=CIRQUE,dc=example",
+#        default_domain => "example.com",
+#    },
 
 };
